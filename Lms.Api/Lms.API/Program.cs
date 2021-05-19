@@ -22,7 +22,7 @@ namespace Lms.API.UI
 
                 // TODO: REMOVE IN PRODUCTION
                 //db.Database.EnsureDeleted();
-                db.Database.Migrate();
+                db.Database.EnsureCreated();
 
                 try
                 {

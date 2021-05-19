@@ -8,8 +8,5 @@
 
         public static string Teacher => "Teacher";
 
-        //public static string[] AdminTeacher = { "Admin", "Teacher" };
-
-        //public static string[] AdminStudent = { "Admin", "Student" };
     }
 }
